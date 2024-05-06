@@ -1,10 +1,6 @@
 @charset "UTF-8";
 /*----------------------------------------------------------------------
-    Template Name: Lezar - Beauty Salon HTML Template
-    Template URI: https://webtend.net/demo/html/lezar/
-    Author: WebTend
-    Author URI:  https://webtend.net/
-    Version: 1.0
+
 
     Note: This is Main Style CSS File. */
 /*----------------------------------------------------------------------
@@ -337,7 +333,7 @@ input[type=checkbox], input[type=radio] {
 
 .home-two input,
 .home-two select,
-.home-two textarea,
+  .home-two textarea,
 .home-two .nice-select,
 .home-two .form-control {
   border-color: #799AA1; }
@@ -360,10 +356,15 @@ input[type=checkbox], input[type=radio] {
       font-size: 150px; } }
   @media only screen and (max-width: 767px) {
     .bg-text {
-      font-size: 100px; } }
+      font-size: 70px;
+      margin-left: 100px;
+     } }
   @media only screen and (max-width: 375px) {
     .bg-text {
-      font-size: 75px; } }
+      font-size: 100px; } 
+    
+      }
+  
 
 .text-center .bg-text {
   left: 50%;
